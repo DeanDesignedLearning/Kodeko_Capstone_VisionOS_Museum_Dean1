@@ -22,7 +22,7 @@ struct ContentView: View {
             Model3D(named: "Scene", bundle: realityKitContentBundle)
                 .padding(.bottom, 50)
 
-            Text("Hello, world!")
+            Text("Hello, world2")
 
             Toggle("Show ImmersiveSpace", isOn: $showImmersiveSpace)
                 .font(.title)
